@@ -18,7 +18,7 @@ if (isDev) {
       remote: `git@github.com:itsprivate/ts-test.git`,
       branch: `main`,
       // Only import the docs folder from a codebase.
-      patterns: ["data/*-placeholder/1.json", "data/redirect-newstop/**"],
+      patterns: ["data/*-placeholder/1.json", "data/youtube-top/**"],
     },
   });
 } else {
@@ -29,7 +29,7 @@ if (isDev) {
       remote: `https://github.com/itsprivate/ts.git`,
       branch: `main`,
       // Only import the docs folder from a codebase.
-      patterns: ["data/*-placeholder/1.json", "data/redirect-newstop/**"],
+      patterns: ["data/*-placeholder/1.json", "data/youtube-top/**"],
     },
   });
 }
@@ -42,7 +42,7 @@ plugins = plugins.concat([
       issueTypeName: ["RedditTopIssuesJson"],
       localesPath: localesPath,
       disqus: {
-        shortname: "reddit-top",
+        shortname: "buzzingcc",
       },
     },
   },
@@ -74,7 +74,7 @@ plugins = plugins.concat([
     options: {
       // You can add multiple tracking ids and a pageview event will be fired for all of them.
       trackingIds: [
-        "G-KQ0RWMXYT4", // Google Analytics / GA
+        "G-RHTMYYMDSN", // Google Analytics / GA
       ],
     },
   },

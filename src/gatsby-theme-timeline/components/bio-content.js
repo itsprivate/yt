@@ -12,18 +12,18 @@ export default function Bio() {
       <Trans>
         See what's buzzing on{" "}
         <LinkUI
-          href="https://news.google.com/topics/CAAqJggKIiBDQkFTRWdvSUwyMHZNRGx1YlY4U0FtVnVHZ0pWVXlnQVAB"
+          href="https://www.youtube.com"
           target="_blank"
           rel="noopener noreferrer"
           sx={css({
             lineHeight: 2,
           })}
         >
-          Google World News
+          Youtube
         </LinkUI>{" "}
         in your native language on{" "}
         <LinkUI as={Link} to="/">
-          news.buzzing.cc
+          youtube.buzzing.cc
         </LinkUI>
       </Trans>
     </>

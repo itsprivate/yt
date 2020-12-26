@@ -1,11 +1,11 @@
 const siteMetadata = {
-  siteUrl: "https://news.buzzing.cc",
-  author: `Buzzing`,
+  siteUrl: "https://youtube.buzzing.cc",
+  author: `Youtube`,
   locale: "zh",
-  title: "谷歌全球新闻头条",
-  shortTitle: "全球头条",
-  description: "用中文浏览谷歌全球新闻(西方媒体)头条",
-  keywords: ["buzzing", "西方媒体", "国外新闻", "世界新闻", "突发新闻"],
+  title: "Youtuber热门",
+  shortTitle: "Youtube热门",
+  description: "用中文浏览 Youtube 上的全球热门视频",
+  keywords: ["buzzing", "Youtube", "视频", "国外流行", "热门视频"],
   menuLinks: [
     // {
     //   name: "每周精选",
@@ -19,8 +19,8 @@ const siteMetadata = {
   ],
   social: [
     {
-      name: `Google News`,
-      url: `https://news.google.com/topics/CAAqJggKIiBDQkFTRWdvSUwyMHZNRGx1YlY4U0FtVnVHZ0pWVXlnQVAB`,
+      name: `Youtube`,
+      url: `https://www.youtube.com/`,
       external: true,
     },
     {
@@ -32,10 +32,10 @@ const siteMetadata = {
   localize: [
     {
       locale: "en",
-      title: `Buzzing on World News`,
-      shortTitle: "BuzzNews",
-      description: `See what's buzzing on Google World News Headline in your native language`,
-      keywords: ["buzzing", "Breaking News"],
+      title: `Buzzing on Youtube`,
+      shortTitle: "BuzzYoutube",
+      description: `See what's buzzing on Youtube in your native language`,
+      keywords: ["buzzing", "Youtube", "Youtube Top", "Youtube Hot"],
       menuLinks: [
         // {
         //   name: "Weekly Selection",
@@ -50,10 +50,10 @@ const siteMetadata = {
     },
     {
       locale: "zh-Hant",
-      title: "谷歌全球新聞頭條",
-      shortTitle: "全球頭條",
-      description: "用中文瀏覽谷歌全球新聞(西方媒體)頭條",
-      keywords: ["buzzing", "西方媒體", "國外新聞", "世界新聞", "突發新聞"],
+      title: "Youtuber熱門",
+      shortTitle: "Youtube熱門",
+      description: "用中文瀏覽 Youtube 上的全球熱門視頻",
+      keywords: ["buzzing", "Youtube", "視頻", "國外流行", "熱門視頻"],
       menuLinks: [
         // {
         // name: "每週精選",
@@ -61,7 +61,7 @@ const siteMetadata = {
         // },
         {
           name: "RSS",
-          url: "/rss.xml",
+          url: "/zh-Hant/rss.xml",
           prefetch: false,
         },
       ],
