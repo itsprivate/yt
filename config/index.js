@@ -6,6 +6,8 @@ const siteMetadata = {
   shortTitle: "Youtube热门",
   description: "用中文浏览 Youtube 上的全球热门视频",
   keywords: ["buzzing", "Youtube", "视频", "国外流行", "热门视频"],
+  telegram: "@buzzingcc",
+  telegram_chat_id: "-1001406368978",
   menuLinks: [
     // {
     //   name: "每周精选",
@@ -39,7 +41,7 @@ const siteMetadata = {
       menuLinks: [
         // {
         //   name: "Weekly Selection",
-        //   url: "/issues",
+        //   url: "/en/issues",
         // },
         {
           name: "RSS",
@@ -57,7 +59,7 @@ const siteMetadata = {
       menuLinks: [
         // {
         // name: "每週精選",
-        // url: "/issues",
+        // url: "/zh-Hant/issues",
         // },
         {
           name: "RSS",

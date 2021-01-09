@@ -17,6 +17,7 @@ if (isDev) {
       name: `RedditTop`,
       remote: `git@github.com:itsprivate/ts-test.git`,
       branch: `main`,
+      fetchOptions: ["--depth", 1],
       // Only import the docs folder from a codebase.
       patterns: ["data/*-placeholder/1.json", "data/youtube-top/**"],
     },
@@ -28,6 +29,7 @@ if (isDev) {
       name: `RedditTop`,
       remote: `https://github.com/itsprivate/ts.git`,
       branch: `main`,
+      fetchOptions: ["--depth", 1],
       // Only import the docs folder from a codebase.
       patterns: ["data/*-placeholder/1.json", "data/youtube-top/**"],
     },
@@ -58,6 +60,8 @@ plugins = plugins.concat([
       theme_color: `#FF4500`,
       display: `standalone`,
       icon: `src/images/icon.png`,
+      telegram: siteMetadata.telegram,
+      telegram_chat_id: siteMetadata.telegram_chat_id,
       localize: siteMetadata.localize.map((item) => {
         return {
           start_url: `/${item.locale}/`,
