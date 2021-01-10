@@ -19,7 +19,11 @@ if (isDev) {
       branch: `main`,
       fetchOptions: ["--depth", 1],
       // Only import the docs folder from a codebase.
-      patterns: ["data/*-placeholder/1.json", "data/youtube-top/**"],
+      patterns: [
+        "data/*-placeholder/1.json",
+        "data/youtube-top/**",
+        "data/youtube-top-issues/**",
+      ],
     },
   });
 } else {
@@ -31,7 +35,11 @@ if (isDev) {
       branch: `main`,
       fetchOptions: ["--depth", 1],
       // Only import the docs folder from a codebase.
-      patterns: ["data/*-placeholder/1.json", "data/youtube-top/**"],
+      patterns: [
+        "data/*-placeholder/1.json",
+        "data/youtube-top/**",
+        "data/youtube-top-issues/**",
+      ],
     },
   });
 }
