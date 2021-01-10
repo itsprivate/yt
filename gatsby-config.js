@@ -41,7 +41,7 @@ plugins = plugins.concat([
     options: {
       tweetTypeName: ["TweetJson", "twitterStatusesUserTimelineMyTweet"],
       redditTypeName: ["RedditJson"],
-      issueTypeName: ["YoutubeIssuesJson"],
+      issueTypeName: ["YoutubeTopIssuesJson"],
       localesPath: localesPath,
       disqus: {
         shortname: "buzzingcc",
