@@ -1,6 +1,6 @@
 const siteMetadata = {
   siteUrl: "https://youtube.buzzing.cc",
-  author: `Youtube`,
+  author: `Buzzing.cc`,
   locale: "zh",
   title: "Youtuber热门",
   shortTitle: "Youtube热门",
