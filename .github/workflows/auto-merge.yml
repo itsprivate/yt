@@ -1,4 +1,4 @@
-name: Auto merge
+name: Auto merge3
 on:
   workflow_dispatch:
   pull_request_target:
