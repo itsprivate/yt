@@ -70,6 +70,19 @@ const siteMetadata = {
         },
       ],
     },
+    {
+      locale: "ja",
+      title: "Youtube 人気の動画",
+      shortTitle: "Youtube人気の動画",
+      description: "人気のYoutube動画を日本語で閲覧",
+      keywords: ["buzzing", "Youtube",],
+      menuLinks: [
+        {
+          name: "毎週の選択",
+          url: "/ja/issues",
+        },
+      ],
+    }
   ],
 };
 
