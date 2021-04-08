@@ -2,7 +2,7 @@ const siteMetadata = {
   siteUrl: "https://youtube.buzzing.cc",
   author: `Buzzing.cc`,
   locale: "zh",
-  title: "Youtuber热门",
+  title: "Youtube 热门",
   shortTitle: "Youtube热门",
   description: "用中文浏览 Youtube 上的全球热门视频",
   keywords: ["buzzing", "Youtube", "视频", "国外流行", "热门视频"],
@@ -59,7 +59,7 @@ const siteMetadata = {
     },
     {
       locale: "zh-Hant",
-      title: "Youtuber熱門",
+      title: "Youtube 熱門",
       shortTitle: "Youtube熱門",
       description: "用中文瀏覽 Youtube 上的全球熱門視頻",
       keywords: ["buzzing", "Youtube", "視頻", "國外流行", "熱門視頻"],
