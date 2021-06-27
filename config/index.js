@@ -8,7 +8,7 @@ const siteMetadata = {
   keywords: ["buzzing", "Youtube", "视频", "国外流行", "热门视频"],
   telegram: "@buzzingcc",
   telegram_chat_id: "-1001406368978",
-  iconUrl: "https://news.buzzing.cc/avatar.png",
+  iconUrl: "https://youtube.buzzing.cc/avatar.png",
   menuLinks: [
     {
       name: "每周精选",
