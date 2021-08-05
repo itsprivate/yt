@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Sitemap: https://youtube.buzzing.cc/sitemap/sitemap-index.xml
+Host: https://youtube.buzzing.cc
